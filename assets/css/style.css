@@ -55,7 +55,7 @@ body {
     padding: 0;
 }
 
-.profileText h2 {
+.profileText h1 {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 200;
@@ -64,7 +64,7 @@ body {
     text-align: center;
 }
 
-.profileText h2 span {
+.profileText h1 span {
     text-transform: none;
     font-size: 18px;
     font-weight: 100;
@@ -106,15 +106,22 @@ body {
     font-style: italic;
 }
 
-.left_side {
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
     height: 1081px;
+}
+
+.left_side {
     width: 350px;
     display: flex;
     flex-direction: column;
     background-color: #782221;
 }
 
-.left_side h3 {
+.left_side h2 {
     display: flex;
     align-items: center;
     width: 310px;
@@ -145,4 +152,58 @@ body {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 10px;
+}
+
+.right_side {
+    height: 1081px;
+    width: 810px;
+    background-color: #FFFFFF;
+    border-right: #000000 solid 2px;
+    color: #000000;
+}
+
+.right_side h2 {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    height: 30px;
+    background-color: #dbc2a4;
+    border-left: solid 10px #782221;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-left: 15px;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right_side h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-left: 15px;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right_side P {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-left: 15px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.right_side ul {
+    list-style-position: inside;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
