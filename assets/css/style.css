@@ -70,3 +70,38 @@ body {
     font-weight: 100;
     display: block;
 }
+
+.contact {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #2C1D27;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.contact .adress {
+    position: absolute;
+    left: 30px;
+}
+
+.contact .mail {
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact .tel {
+    position: absolute;
+    right: 30px;
+    font-style: italic;
+}
