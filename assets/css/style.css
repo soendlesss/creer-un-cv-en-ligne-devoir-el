@@ -42,7 +42,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
     margin-bottom: 15px;
 }
 
@@ -53,7 +52,17 @@ body {
     border-radius: 50%;
     margin: 0;
     padding: 0;
+    cursor: zoom-in;
 }
+
+.image-shadow {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+}
+    
 
 .profileText h1 {
     text-transform: uppercase;
@@ -87,7 +96,6 @@ body {
 
 .contact a:hover {
     text-decoration: underline;
-    color: #ffcc00;
 }
 
 .contact .adress {
@@ -161,6 +169,7 @@ body {
     background-color: #FFFFFF;
     border-right: #000000 solid 2px;
     color: #000000;
+    padding-right: 20px;
 }
 
 .right_side h2 {
@@ -209,6 +218,10 @@ body {
     margin-left: 40px;
 }
 
+.hoverable:hover {
+    border-right: solid 10px #782221;
+}
+
 .bottom_side {
     display: flex;
     flex-direction: column;
@@ -236,4 +249,8 @@ body {
     text-align: center;
     font-size: small;
     color: #FFFFFF;
+}
+
+.logo:hover {
+    opacity: 70%;
 }

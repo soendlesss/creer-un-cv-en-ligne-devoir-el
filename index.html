@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>CV</title>
+    <link rel="icon" type="image/png" href="/assets/img/cv-favicon.png">
 </head>
 <body>
     <div class="container">
         <div class="top_side">
             <div class="profileText">
                 <div class="imgBx">
-                    <img src="assets/img/photo-profil.jpg" alt="photo de profil">
+                    <a href="assets/img/photo-profil.jpg"><img src="assets/img/photo-profil.jpg" alt="photo de profil" class="image-shadow"></a>
                 </div>
                 <h1>Ethan Langlois <br><br><span>Développeur web junior</span></h1>
             </div>
@@ -58,48 +59,59 @@
                 <div class="experience">
                     <h2>Expériences professionnelles</h2>
 
-                    <h3>Web designer au Comité Essonne de Tennis</h3>
-                    <p>Du 20/08/2023 au 31/05/2025</p>
-                    <ul>
-                        <li>Créer le site web du TIM</li>
-                        <li>Créer des affiches</li>
-                        <li>Renouveller la signalétique des locaux</li>
-                        <li>Mettre en forme des présentations</li>
-                    </ul>
+                    <div class="xp1  hoverable">
+                        <h3>Web designer au Comité Essonne de Tennis</h3>
+                        <p>Du 20/08/2023 au 31/05/2025</p>
+                        <ul>
+                            <li>Créer le site web du TIM</li>
+                            <li>Créer des affiches</li>
+                            <li>Renouveller la signalétique des locaux</li>
+                            <li>Mettre en forme des présentations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="xp2 hoverable">
+                        <h3>Agent d'accueil au Comité Essonne de Tennis</h3>
+                        <p>Du 28/03/2023 au 31/07/2023</p>
+                        <ul>
+                            <li>Accueillir le public</li>
+                            <li>Répondre au téléphone et aider les clubs de tennis</li>
+                            <li>Répondre aux mails</li>
+                            <li>Réservation de terrains</li>
+                        </ul>
+                     </div>
 
-                    <h3>Agent d'accueil au Comité Essonne de Tennis</h3>
-                    <p>Du 28/03/2023 au 31/07/2023</p>
-                    <ul>
-                        <li>Accueillir le public</li>
-                        <li>Répondre au téléphone et aider les clubs de tennis</li>
-                        <li>Répondre aux mails</li>
-                        <li>Réservation de terrains</li>
-                    </ul>
-
-                    <h3>Livreur de pizza chez Pizza Lutèce</h3>
-                    <p>Du 01/09/2022 au 31/01/2023</p>
-                    <ul>
-                        <li>Livrer des pizzas</li>
-                        <li>Réorganiser les stocks</li>
-                        <li>Ranger les livraisons de boissons</li>
-                        <li>Plier et construire les boîtes à pizza</li>
-                    </ul>
+                    <div class="xp3 hoverable">
+                        <h3>Livreur de pizza chez Pizza Lutèce</h3>
+                        <p>Du 01/09/2022 au 31/01/2023</p>
+                        <ul>
+                            <li>Livrer des pizzas</li>
+                            <li>Réorganiser les stocks</li>
+                            <li>Ranger les livraisons de boissons</li>
+                            <li>Plier et construire les boîtes à pizza</li>
+                        </ul>
+                     </div>
                 </div>
+
                 <div class="diplome">
                     <h2>Diplômes / Formations</h2>
 
-                    <h3>Graphiste multimédias</h3>
-                    <p>Du 01/09/2021 au 31/08/2024</p>
-                    <p>L'école multimédias</p>
+                    <div class="dip1 hoverable">
+                        <h3>Graphiste multimédias</h3>
+                        <p>Du 01/09/2021 au 31/08/2024</p>
+                        <p>L'école multimédias</p>
+                    </div>
 
-                    <h3>CAP Cuisine</h3>
-                    <p>Du 01/09/2020 au 31/08/2021</p>
-                    <p>Faculté des métiers de l'Essonne</p>
+                    <div class="dip2 hoverable">
+                        <h3>CAP Cuisine</h3>
+                        <p>Du 01/09/2020 au 31/08/2021</p>
+                        <p>Faculté des métiers de l'Essonne</p>
+                    </div>
                 </div>
                 <div class="competence">
                     <h2>Compétences</h2>
 
-                    <ul>
+                    <ul class="hoverable">
                         <li>HTML 5 - Intermédiare</li>
                         <li>CSS 3 - Intermédiaire</li>
                         <li>GitHub - Débutant</li>
@@ -114,9 +126,9 @@
         </div>
         <div class="bottom_side">
             <div class="img">
-                <img src="/assets/img/linkedin.png" alt="Logo du réseau social Linkedin">
-                <img src="/assets/img/twitter.png" alt="Logo du réseau social Twitter">
-                <img src="/assets/img/github.png" alt="Logo du réseau social Github">
+                <img src="/assets/img/linkedin.png" alt="Logo du réseau social Linkedin" class="linkedin logo">
+                <img src="/assets/img/twitter.png" alt="Logo du réseau social Twitter" class="twitter logo">
+                <img src="/assets/img/github.png" alt="Logo du réseau social Github" class="github logo">
             </div>
             <div id="maj">
                 <p>Dernière mise à jour le 17 Novembre 2024</p>
