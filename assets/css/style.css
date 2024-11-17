@@ -96,7 +96,6 @@ body {
 
 .contact a:hover {
     text-decoration: underline;
-    color: #ffcc00;
 }
 
 .contact .adress {
@@ -250,4 +249,8 @@ body {
     text-align: center;
     font-size: small;
     color: #FFFFFF;
+}
+
+.logo:hover {
+    opacity: 70%;
 }
