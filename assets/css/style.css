@@ -209,11 +209,13 @@ body {
 }
 
 .bottom_side {
-    height: 130px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding-top: 20px;
     background-color: #782221;
+    color: white;
+    height: 130px;
 }
 
 .bottom_side .img {
@@ -226,4 +228,11 @@ body {
     height: 35px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.bottom_side #maj {
+    padding-top: 30px;
+    text-align: center;
+    font-size: small;
+    color: #FFFFFF;
 }
