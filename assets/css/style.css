@@ -42,7 +42,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;
     margin-bottom: 15px;
 }
 
@@ -54,6 +53,15 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.image-shadow {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+}
+    
 
 .profileText h1 {
     text-transform: uppercase;
