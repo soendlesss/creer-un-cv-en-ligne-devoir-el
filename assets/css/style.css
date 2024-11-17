@@ -70,3 +70,12 @@ body {
     font-weight: 100;
     display: block;
 }
+
+.contact {
+    height: 80px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #2C1D27;
+    padding: 0 30px;
+}
