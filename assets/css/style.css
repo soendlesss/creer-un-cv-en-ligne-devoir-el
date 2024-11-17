@@ -105,3 +105,44 @@ body {
     right: 30px;
     font-style: italic;
 }
+
+.left_side {
+    height: 1081px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+}
+
+.left_side h3 {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    height: 30px;
+    background-color: #dbc2a4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.aPropos p {
+    padding-left: 15px;
+    padding-right: 40px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.4;
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+.left_side ul {
+    list-style-position: inside;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
