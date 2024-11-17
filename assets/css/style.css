@@ -169,6 +169,7 @@ body {
     background-color: #FFFFFF;
     border-right: #000000 solid 2px;
     color: #000000;
+    padding-right: 20px;
 }
 
 .right_side h2 {
@@ -215,6 +216,10 @@ body {
     line-height: 1.4;
     margin-bottom: 10px;
     margin-left: 40px;
+}
+
+.hoverable:hover {
+    border-right: solid 10px #782221;
 }
 
 .bottom_side {
